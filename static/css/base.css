@@ -264,10 +264,11 @@ header .fa-bars {
 header .fa-times {
   transform: rotate(180deg);
 }
-.edu{
+.edu {
   margin-top: 10rem;
+  margin-bottom: 7rem;
 }
-.edu > h1{
+.edu > h1 {
   text-align: center;
   color: #0188df;
   text-transform: uppercase;
@@ -275,27 +276,23 @@ header .fa-times {
   margin: 25px;
   font-size: 3.2rem;
   text-shadow: 2px 1.3px 1.7px darkblue;
-
-
 }
-.edu h2{
-  font-size:1.8rem;
+.edu h2 {
+  font-size: 1.8rem;
   word-spacing: 10px;
   margin-left: 10px;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px red;
 }
-.edu h2::after{
+.edu h2::after {
   content: " ->";
 }
 
-.edu p{
+.edu p {
   color: black;
   font-size: 20px;
   word-spacing: 7px;
   margin-left: 10px;
-
-
 }
 
 /* media queries  */
