@@ -259,9 +259,6 @@ header .fa-bars {
   background-color: #506ad4;
   font-size: 20px;
   color: var(--white);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 header .fa-times {
@@ -323,4 +320,21 @@ header .fa-times {
 .imgg {
   height: 300px;
   width: 100px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.form {
+  margin: 15rem;
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 20px;
+}
+input[type="number"] {
+  font-size: 20px;
 }
