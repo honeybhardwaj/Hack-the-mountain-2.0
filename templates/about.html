@@ -1,0 +1,109 @@
+{% extends 'base.html' %} {% block title %}About{% endblock title %} {% block
+body %} 
+<!-- home section starts  -->
+
+<section class="home" id="about">
+
+<div class="container">
+
+    <div class="row min-vh-100 align-items-center text-center text-md-left">
+        <div class="col-md-6 col-sm-12 pl-md-5 content" data-aos="fade-left">
+            <h1><span>stay</span> safe
+            <h3>We are here to take care of you.</h3>
+            
+        </div>
+
+        <div class="col-md-6 col-sm-12 pr-md-5" data-aos="zoom-in">
+                <div class="polaroid">
+                <img src="https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="5 Terre" style="width:100%">
+                <div class="container">
+                <p>Care Taker/Life Saviour</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- home section ends -->
+
+<!-- about section start  -->
+
+<section class="about" id="features">
+    <div class="row">
+        
+        <div class="col-md-6 col-sm-12 pr-md-5" data-aos="zoom-in">
+            <div class="polaroid">
+            <img class="imgg" src="https://pbs.twimg.com/profile_images/513292123752255488/nng6VHmW_400x400.jpeg" alt="5 Terre" style="width:100%">
+            <div class="container">
+            <p>Calorie Counter</p>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="col-md-6 col-sm-12 pr-md-5" data-aos="zoom-in">
+                <div class="polaroid">
+                <img class="imgg" src="https://lh3.googleusercontent.com/proxy/hqh6FaqWp1KbVjXnRr9HpCLdfs0k8l9D-rON-tiG_lG9grNDgqpdmDiIVDFtXUf_Bnc-upt4Pw5XWfD3oIcrIys6EEOkXniqeZY-vgQbTL8lQoWr" alt="5 Terre" style="width:100%">
+                <div class="container">
+                <p>BMI Calculator</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 pr-md-5" data-aos="zoom-in">
+            <div class="polaroid">
+            <img class="imgg" src="https://thumbs.dreamstime.com/b/self-awareness-personal-success-aware-business-understanding-leadership-recognition-letterpress-block-message-type-empathy-164016968.jpg" alt="5 Terre" style="width:100%">
+            <div class="container">
+            <p>Makes You Self-Aware</p>
+            </div>
+        </div>
+    </div>
+
+    
+        
+
+    
+    
+
+</div>
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+
+
+<!-- review section starts  -->
+
+<section class="review" id="team">
+
+<div class="container">
+
+<h1 class="heading"><span>Team Members</span></h1>
+
+<div class="box-container">
+
+    <div class="box" data-aos="fade-right">
+        <img class="img" src="{{ url_for('static',filename='images/y.jpeg') }}" alt="">
+        
+        <h3>YASH BHARDWAJ</h3>
+        <p>FRONT-END DEVELOPER</p>
+    </div>
+    <div class="box" data-aos="fade-right">
+        <img class="img" src="{{ url_for('static',filename='images/web_pic.png') }}" alt="">
+        
+        <h3>HONEY BHARDWAJ</h3>
+        <p>BACK-END DEVELOPER</p>
+    </div>
+
+</div>
+
+</div>
+
+
+{% endblock body %}

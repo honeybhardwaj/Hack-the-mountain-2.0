@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block body %}
+<form>
+  <div class="mb-3">
+    <label for="height" class="form-label">Height</label>
+    <input type="number" class="form-control" id="height" name="height" />
+  </div>
+  <div class="mb-3">
+    <label for="weight" class="form-label">weight</label>
+    <input type="number" class="form-control" id="weight" name="weight" />
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock body %}
