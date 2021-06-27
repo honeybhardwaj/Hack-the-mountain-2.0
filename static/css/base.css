@@ -256,7 +256,7 @@ header .fa-bars {
 }
 
 .footer {
-  background-color: #506ad4;
+  background-color: #0188df;
   font-size: 20px;
   color: var(--white);
 }
@@ -346,6 +346,8 @@ header .fa-times {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 .imgg {
   height: 300px;
