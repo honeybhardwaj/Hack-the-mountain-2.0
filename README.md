@@ -12,3 +12,5 @@ This is the project repo for hack the mountains 2.0. our project is a Health awa
 - flask
 
 
+Check the Demo video at [here](https://user-images.githubusercontent.com/51120790/123541172-b648f900-d760-11eb-8934-753ae829499f.mp4)
+
