@@ -259,6 +259,9 @@ header .fa-bars {
   background-color: #506ad4;
   font-size: 20px;
   color: var(--white);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 header .fa-times {
